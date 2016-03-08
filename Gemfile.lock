@@ -203,8 +203,11 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   less-rails!
+<<<<<<< HEAD
   paperclip
   quiet_assets
+=======
+>>>>>>> c43c455e4259e7a3016f5acf81e62fa302298d97
   rails (= 4.2.5)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
