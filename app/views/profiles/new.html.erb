@@ -1,0 +1,29 @@
+
+<div>
+<%= form_for @user do |f| %>
+	Name: <%= f.text_field :name %>
+	<br>
+	Phone Number: <%= f.text_field :phone %>
+	<br>
+	Start Date: <%= f.text_field :start_date %>
+	<br>
+	Team Captain: <%= f.text_field :team_captain %>
+	<br>
+	Address: <%= f.text_field :address %>
+	<br>
+	Working Status: <%= f.text_field :working_status %>
+	<br>
+	VIP Status: <%= f.text_field :vip_status %>
+	<br>
+	Title: <%= f.text_field :title %>
+	<br>
+	Lyft: <%= f.text_field :lyft %>
+	<br>
+	PAM: <%= f.text_field :pam %>
+	<br>
+	Endzone: <%= f.text_field :endzone %>
+	<br>
+	<%= f.submit "Complete Profile" %>
+<% end %>
+
+</div>
