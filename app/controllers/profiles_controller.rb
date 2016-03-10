@@ -12,10 +12,15 @@ class ProfilesController < ApplicationController
   end
 
   def create
-    binding.pry
-    @user = current_user
-    @user.profile.create (params[:user_id])
-    redirect_to user.profile
+    # profile = Profile.new(user: current_user)
+
+    profile = Profile.new
+    profile.user = current_user
+    profile.save
+
+    #@user = current_user
+    #@user.profile.create (params[:user_id])
+    #redirect_to user.profile
   end
 
 end
